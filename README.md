@@ -89,8 +89,8 @@ which seemed to have a strong influence on the class.
 για την δημιουργία του μοντέλου πρόβλεψης και της τεχνικής k-folds cross validation για την
 αξιολόγηση του μοντέλου.
 
-##DOWNLOAD
+## DOWNLOAD
 
-[I'm an inline-style link with title](kaggle.com "Thesis")(Greek Version)
+[Thesis](kaggle.com "Thesis")(Greek Version)
 
-[I'm an inline-style link with title](https://drive.google.com/file/d/1KvhkEQpyKf6sSu9xrEbjGlk5NSENUdIG/view?usp=sharing "DATASET") on kaggle.com
+[DATASET](https://drive.google.com/file/d/1KvhkEQpyKf6sSu9xrEbjGlk5NSENUdIG/view?usp=sharing "DATASET") on kaggle.com
