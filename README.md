@@ -151,7 +151,7 @@ for i in range (20,100):
         tempi = i 
 print ("biggest success:",temp,", k =",tempi)
 ```
-You can find see more code examples by visiting our repository through the "View on Github" button in the yellow box^
+You can see more code examples by visiting the repository through the "View on Github" button in the yellow box at the top of the page.
 
 ## Screenshots
 DATABASE SCHEMA
