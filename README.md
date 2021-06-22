@@ -42,6 +42,7 @@ technique to make it more suitable for testing. The four models we used were:
 * Neural Network
 * Random Forest
 * k-NN
+
 The best model was Neural Network, which was able to predict hit songs with 78.71%
 accuracy. The four models had the following accuracy results.
 
