@@ -91,6 +91,8 @@ which seemed to have a strong influence on the class.
 
 ## Used code examples
 Here you can check out some of the code we used:
+
+The following code in python was used to retrieve the spotify audio features from the spotify api and write them in a csv file
 ```python
 # creating new csv file for track features
 with open('sfeatures.csv', 'w', newline='') as f_handle:
@@ -121,6 +123,26 @@ with open('sfeatures.csv', 'w', newline='') as f_handle:
             features = [0,0,0,0,0,0,0,0,0,0,0,0,0]
             writer.writerow(features)
 ```
+The following code was used to find the best k for the k-NN algorithm (using numpy,pandas and sklearn).
+
+```python
+temp = 0
+tempi = 0
+df = pd.DataFrame(columns = ["k",'score'])
+for i in range (20,100): 
+    model=KNeighborsClassifier(n_neighbors=i)
+    dtf1=dtf.drop('On_chart',1)
+    dtf2=dtf['On_chart']
+    cv_r2_scores_rf=cross_val_score(model,dtf1,dtf2],cv=10)
+    mean=np.mean(cv_r2_scores_rf)
+    df.loc[i]=i
+    df.loc[i,'score'] = mean
+    if  mean > temp:
+        temp = mean
+        tempi = i 
+print ("biggest success:",temp,", k =",tempi)
+```
+
 ## Screenshots
 DATABASE SCHEMA
 ![Database schema](images/databaseschema.png "Database schema")
