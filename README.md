@@ -12,8 +12,9 @@ and characteristics. Predicting hit songs would have a huge impact on the develo
 of the music industry. Artists would be able to focus their efforts on more promising and
 maybe even better songs and therefore increase their profits. Also further analyzing data
 from popularity sources would lead to a better understanding of the history and trends of
-music. Several works in the past have tried to address the issue. Such works exist since
-2005. Our first part of the work was based on a previous work that was published in 2016.
+music. Several works in the past have tried to address the issue.
+Such works exist since 2005. 
+Our first part of the work was based on a previous work that was published in 2016.
 In the first part of this work, we constructed a database consisting of 2844 Music charts,
 22600 hit songs, and 8329 artists, dating back to 1985 till today. Three popularity sources
 were used to collect the data namely billboard, Spotify, and shazam. Also, an automated
