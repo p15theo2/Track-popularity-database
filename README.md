@@ -93,7 +93,15 @@ which seemed to have a strong influence on the class.
 ## Used code examples
 Here you can check out some of the code we used:
 
-The following code in python was used to retrieve the spotify audio features from the spotify api and write them in a csv file
+Sql used to extract hit songs from our database:
+```SQL
+results = returnque("""SELECT track.title,artist.name,track.id_video FROM track
+                        LEFT JOIN  artist_track ON track.id = artist_track.track_id 
+                         LEFT JOIN artist ON artist_track.artist_id = artist.id""")
+```
+
+The following code in python was used to retrieve the spotify audio features from the spotify api and write them in a csv file:
+
 ```python
 # creating new csv file for track features
 with open('sfeatures.csv', 'w', newline='') as f_handle:
@@ -124,7 +132,7 @@ with open('sfeatures.csv', 'w', newline='') as f_handle:
             features = [0,0,0,0,0,0,0,0,0,0,0,0,0]
             writer.writerow(features)
 ```
-The following code was used to find the best k for the k-NN algorithm (using numpy,pandas and sklearn).
+The following code was used to find the best k for the k-NN algorithm (using numpy,pandas and sklearn):
 
 ```python
 temp = 0
@@ -143,6 +151,7 @@ for i in range (20,100):
         tempi = i 
 print ("biggest success:",temp,", k =",tempi)
 ```
+You can find see more code examples by visiting our repository through the "View on Github" button in the yellow box^
 
 ## Screenshots
 DATABASE SCHEMA
