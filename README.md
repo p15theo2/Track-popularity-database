@@ -98,6 +98,6 @@ which seemed to have a strong influence on the class.
 
 ## Downloads
 
-[Thesis](kaggle.com "Thesis") (Greek Version)
+[Thesis](https://drive.google.com/file/d/1KvhkEQpyKf6sSu9xrEbjGlk5NSENUdIG/view?usp=sharing "Thesis") (Greek Version)
 
-[Dataset](https://drive.google.com/file/d/1KvhkEQpyKf6sSu9xrEbjGlk5NSENUdIG/view?usp=sharing "DATASET") on kaggle.com
+[Dataset](kaggle.com "DATASET") on kaggle.com
