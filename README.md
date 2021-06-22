@@ -57,7 +57,7 @@ Also, further attention should be given to ”instrumentalness” and ”valence
 which seemed to have a strong influence on the class.
 
 
-### ΠΕΡΙΛΗΨΗ(Greek synopsis)
+### Περίληψη (Greek synopsis)
 
 Στην παρούσα εργασία ασχοληθήκαμε με την δημιουργία ενός συστήματος συλλογής και
 επαναδιάθεσης δεδομένων δημοτικότητας μουσικών κομματιών και στην συνέχεια με την πρό-
@@ -89,8 +89,15 @@ which seemed to have a strong influence on the class.
 για την δημιουργία του μοντέλου πρόβλεψης και της τεχνικής k-folds cross validation για την
 αξιολόγηση του μοντέλου.
 
+## Screenshots
+
+![Database schema](https://github.com/p15theo2/Track-popularity-database/blob/main/images/databaseschema.png "Database schema")
+![Track Popularity Web Page](https://github.com/p15theo2/Track-popularity-database/blob/main/images/thestart.png "Track Popularity web page")
+![Track Popularity demo](https://github.com/p15theo2/Track-popularity-database/blob/main/images/track%20popularity%20diagram.png "Track Popularity demo")
+
+
 ## Downloads
 
-[Thesis](kaggle.com "Thesis")(Greek Version)
+[Thesis](kaggle.com "Thesis") (Greek Version)
 
-[DATASET](https://drive.google.com/file/d/1KvhkEQpyKf6sSu9xrEbjGlk5NSENUdIG/view?usp=sharing "DATASET") on kaggle.com
+[Dataset](https://drive.google.com/file/d/1KvhkEQpyKf6sSu9xrEbjGlk5NSENUdIG/view?usp=sharing "DATASET") on kaggle.com
