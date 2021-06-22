@@ -5,7 +5,7 @@ Below you can find an extended synopsis of my project. In the Downloads section,
 Η παρούσα σελίδα δημιουργήθηκε ως μέρος της Διπλωματικής μου στο τμήμα πληροφορικής του Ιονίου πανεπιστημίου.
 Παρακάτω μπορείτε να δείτε την περίληψη της εργασίας. Επειτα μπορείτε να κατεβάσετε το έγγραφο της πτυχιακής η το σετ δεδομένων.
 
-## EXTENDED SYNOPSIS
+### EXTENDED SYNOPSIS
 In this work, we attempt to solve the ”Hit Song Science” problem which aims to the prediction
 of commercially successful songs before their distribution using their audio features
 and characteristics. Predicting hit songs would have a huge impact on the development
@@ -57,7 +57,7 @@ Also, further attention should be given to ”instrumentalness” and ”valence
 which seemed to have a strong influence on the class.
 
 
-## ΠΕΡΙΛΗΨΗ
+### ΠΕΡΙΛΗΨΗ(Greek synopsis)
 
 Στην παρούσα εργασία ασχοληθήκαμε με την δημιουργία ενός συστήματος συλλογής και
 επαναδιάθεσης δεδομένων δημοτικότητας μουσικών κομματιών και στην συνέχεια με την πρό-
@@ -89,3 +89,8 @@ which seemed to have a strong influence on the class.
 για την δημιουργία του μοντέλου πρόβλεψης και της τεχνικής k-folds cross validation για την
 αξιολόγηση του μοντέλου.
 
+##DOWNLOAD
+
+[I'm an inline-style link with title](kaggle.com "Thesis")(Greek Version)
+
+[I'm an inline-style link with title](https://drive.google.com/file/d/1KvhkEQpyKf6sSu9xrEbjGlk5NSENUdIG/view?usp=sharing "DATASET") on kaggle.com
