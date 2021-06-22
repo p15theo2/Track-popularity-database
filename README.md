@@ -1,11 +1,11 @@
 # Intro
 Welcome, this page was developed as part of my thesis on "Informatics" deparment at Ionian university of Greece.
-Below you can find an extended synopsis of my project. In the Downloads section, you may find the complete thesis document and the dataset that was created during my project.
+Below you can find an extended synopsis of my project. In the "Downloads" section, you may find the complete thesis document and the dataset that was created during my project.
 
 Η παρούσα σελίδα δημιουργήθηκε ως μέρος της Διπλωματικής μου στο τμήμα πληροφορικής του Ιονίου πανεπιστημίου.
 Παρακάτω μπορείτε να δείτε την περίληψη της εργασίας. Επειτα μπορείτε να κατεβάσετε το έγγραφο της πτυχιακής η το σετ δεδομένων.
 
-### EXTENDED SYNOPSIS
+### Extended synopsis
 In this work, we attempt to solve the ”Hit Song Science” problem which aims to the prediction
 of commercially successful songs before their distribution using their audio features
 and characteristics. Predicting hit songs would have a huge impact on the development
@@ -89,7 +89,7 @@ which seemed to have a strong influence on the class.
 για την δημιουργία του μοντέλου πρόβλεψης και της τεχνικής k-folds cross validation για την
 αξιολόγηση του μοντέλου.
 
-## DOWNLOAD
+## Downloads
 
 [Thesis](kaggle.com "Thesis")(Greek Version)
 
