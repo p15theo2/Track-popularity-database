@@ -1,10 +1,62 @@
-## Welcome to GitHub Pages
+# Intro
+Welcome, this page was developed as part of my thesis on "Informatics" deparment at Ionian university of Greece.
+Below you can find an extended synopsis of my project. In the Downloads section, you may find the complete thesis document and the dataset that was created during my project.
 
-You can use the [editor on GitHub](https://github.com/p15theo2/Track-popularity-database/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Η παρούσα σελίδα δημιουργήθηκε ως μέρος της Διπλωματικής μου στο τμήμα πληροφορικής του Ιονίου πανεπιστημίου.
+Παρακάτω μπορείτε να δείτε την περίληψη της εργασίας. Επειτα μπορείτε να κατεβάσετε το έγγραφο της πτυχιακής η το σετ δεδομένων.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## EXTENDED SYNOPSIS
+In this work, we attempt to solve the ”Hit Song Science” problem which aims to the prediction
+of commercially successful songs before their distribution using their audio features
+and characteristics. Predicting hit songs would have a huge impact on the development
+of the music industry. Artists would be able to focus their efforts on more promising and
+maybe even better songs and therefore increase their profits. Also further analyzing data
+from popularity sources would lead to a better understanding of the history and trends of
+music. Several works in the past have tried to address the issue. Such works exist since
+2005. Our first part of the work was based on a previous work that was published in 2016.
+In the first part of this work, we constructed a database consisting of 2844 Music charts,
+22600 hit songs, and 8329 artists, dating back to 1985 till today. Three popularity sources
+were used to collect the data namely billboard, Spotify, and shazam. Also, an automated
+data collection system was constructed. Attention was given to its error-proofing and
+speed in an attempt to make a fully automated weekly update system for our database.
+Later a website was made to present our work. The database was used on our website to
+provide a user-friendly way to explore the data through various types of diagrams. For
+example, a user can explore the presence an artist had on music charts or explore all of
+his songs that made it to the charts. In the second part of this work, we constructed a
+dataset in an attempt to solve the Hit Song Science problem. First using the database
+we mentioned earlier we constructed a dataset with approximately 17430 hit songs. Later
+we constructed a second dataset with approximately 17315 nonhit songs using a third
+party dataset. We then combined the two datasets and extracted the audio features for
+every track using the Spotify API. The column ”On chart” was also added to indicate if
+the song is a hit or not. The final dataset contained approximately 34740 tracks and 17
+features for each of the songs. To predict whether a song will be a hit or not we tested four
+models on our dataset. Before testing the models we analyzed the dataset to understand
+our data and check for missing or invalid values that may existed. The analysis of the
+dataset showed a strong influence of the ”instrumentalness” and ”valence” features on the
+”On chart” indicator. This led us to the assumption that the amount of vocals in the song
+and the musical positiveness conveyed by the song may have a serious impact in defining
+a song as hit or non-hit. Then we normalized our data using the min-max normalization
+technique to make it more suitable for testing. The four models we used were:
 
-### ΠΕΡΙΛΗΨΗ
+* Support Vector Machine
+* Neural Network
+* Random Forest
+* k-NN
+The best model was Neural Network, which was able to predict hit songs with 78.71%
+accuracy. The four models had the following accuracy results.
+
+|  k-NN |  SVM  | Neural Networks | Random forest |
+|:-----:|:-----:|:---------------:|:-------------:|
+| 75.68 | 75.43 |      78.71      |     76.03     |
+
+It should also be considered that according to the confusion matrix we constructed later,
+Random Forest algorithm had fewer False Positive classifications than any other algorithm.
+Finally, we believe that in the future more chart sources should be considered.
+Also, further attention should be given to ”instrumentalness” and ”valence” audio features
+which seemed to have a strong influence on the class.
+
+
+## ΠΕΡΙΛΗΨΗ
 
 Στην παρούσα εργασία ασχοληθήκαμε με την δημιουργία ενός συστήματος συλλογής και
 επαναδιάθεσης δεδομένων δημοτικότητας μουσικών κομματιών και στην συνέχεια με την πρό-
@@ -36,54 +88,3 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 για την δημιουργία του μοντέλου πρόβλεψης και της τεχνικής k-folds cross validation για την
 αξιολόγηση του μοντέλου.
 
-### EXTENDED SYNOPSIS
-In this work, we attempt to solve the ”Hit Song Science” problem which aims to the prediction
-of commercially successful songs before their distribution using their audio features
-and characteristics. Predicting hit songs would have a huge impact on the development
-of the music industry. Artists would be able to focus their efforts on more promising and
-maybe even better songs and therefore increase their profits. Also further analyzing data
-from popularity sources would lead to a better understanding of the history and trends of
-music. Several works in the past have tried to address the issue. Such works exist since
-2005. Our first part of the work was based on a previous work that was published in 2016.
-In the first part of this work, we constructed a database consisting of 2844 Music charts,
-22600 hit songs, and 8329 artists, dating back to 1985 till today. Three popularity sources
-were used to collect the data namely billboard, Spotify, and shazam. Also, an automated
-data collection system was constructed. Attention was given to its error-proofing and
-speed in an attempt to make a fully automated weekly update system for our database.
-Later a website was made to present our work. The database was used on our website to
-provide a user-friendly way to explore the data through various types of diagrams. For
-example, a user can explore the presence an artist had on music charts or explore all of
-his songs that made it to the charts. In the second part of this work, we constructed a
-dataset in an attempt to solve the Hit Song Science problem. First using the database
-we mentioned earlier we constructed a dataset with approximately 17430 hit songs. Later
-we constructed a second dataset with approximately 17315 nonhit songs using a third
-party dataset. We then combined the two datasets and extracted the audio features for
-every track using the Spotify API. The column ”On chart” was also added to indicate if
-the song is a hit or not. The final dataset contained approximately 34740 tracks and 17
-features for each of the songs. To predict whether a song will be a hit or not we tested four
-models on our dataset. Before testing the models we analyzed the dataset to understand
-iii
-iv
-our data and check for missing or invalid values that may existed. The analysis of the
-dataset showed a strong influence of the ”instrumentalness” and ”valence” features on the
-”On chart” indicator. This led us to the assumption that the amount of vocals in the song
-and the musical positiveness conveyed by the song may have a serious impact in defining
-a song as hit or non-hit. Then we normalized our data using the min-max normalization
-technique to make it more suitable for testing. The four models we used were:
- Support Vector Machine
- Neural Network
- Random Forest
- k-NN
-The best model was Neural Network, which was able to predict hit songs with 78.71%
-accuracy. The four models had the following results.
-
-Accuracy
-
-k-NN SVM Neural Networks Random forest
-75.68 75.43 78.71 76.03
-
-It should also be considered that according to the confusion matrix we constructed later,
-Random Forest algorithm had fewer False Positive classifications than any other algorithm.
-Finally, we believe that in the future more chart sources should be considered.
-Also, further attention should be given to ”instrumentalness” and ”valence” audio features
-which seemed to have a strong influence on the class.
