@@ -95,9 +95,9 @@ Here you can check out some of the code we used:
 
 Sql used to extract hit songs from our database:
 ```sql
-results = returnque("""SELECT track.title,artist.name,track.id_video FROM track
+results = returnque(""SELECT track.title,artist.name,track.id_video FROM track
                         LEFT JOIN  artist_track ON track.id = artist_track.track_id 
-                         LEFT JOIN artist ON artist_track.artist_id = artist.id""")
+                         LEFT JOIN artist ON artist_track.artist_id = artist.id"")
 ```
 
 The following code in python was used to retrieve the spotify audio features from the spotify api and write them in a csv file:
