@@ -90,10 +90,12 @@ which seemed to have a strong influence on the class.
 αξιολόγηση του μοντέλου.
 
 ## Screenshots
-
+DATABASE SCHEMA
 ![Database schema](images/databaseschema.png "Database schema")
-![Track Popularity Web Page](https://github.com/p15theo2/Track-popularity-database/blob/main/images/thestart.png "Track Popularity web page")
-![Track Popularity demo](https://github.com/p15theo2/Track-popularity-database/blob/main/images/track%20popularity%20diagram.png "Track Popularity demo")
+Track popularity web page
+![Track Popularity Web Page](images/thestart.png "Track Popularity web page")
+Demo example
+![Track Popularity demo](images/track%20popularity%20diagram.png "Track Popularity demo")
 
 
 ## Downloads
