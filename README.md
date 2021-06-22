@@ -100,4 +100,4 @@ which seemed to have a strong influence on the class.
 
 [Thesis](https://drive.google.com/file/d/1KvhkEQpyKf6sSu9xrEbjGlk5NSENUdIG/view?usp=sharing "Thesis") (Greek Version)
 
-[Dataset](kaggle.com "DATASET") on kaggle.com
+[Dataset](https://www.kaggle.com/multispiros/34740-hit-and-nonhit-songs-spotify-features "DATASET") on kaggle.com
