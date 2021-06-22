@@ -89,6 +89,38 @@ which seemed to have a strong influence on the class.
 για την δημιουργία του μοντέλου πρόβλεψης και της τεχνικής k-folds cross validation για την
 αξιολόγηση του μοντέλου.
 
+## Used code examples
+Here ou can check out some of the code we used:
+
+    # creating new csv file for track features
+    2 with open (’sfeatures .csv ’, ’w’, newline =’’) as f_handle :
+    3 writer = csv . writer ( f_handle )
+    4 # Add the header / column names
+    5 header = [’duration_ms ’,’energy ’,’key ’, ’mode ’,
+    6 ’ time_signature ’ ,’ acousticness ’,’ danceability ’,
+    7 ’ instrumentalness ’,’liveness ’,
+    8 ’loudness ’,’speechiness ’,’valence ’,’tempo ’]
+    9 writer . writerow ( header )
+    10 # Iterate over ‘data ‘ and write to the csv file
+    11 for row in dtf[" track_id "]:
+    12 try:
+    13 track = sp. audio_features ( tracks =[ row ])
+    14 features = [ track [0][ ’duration_ms ’],
+    15 track [0][ ’energy ’],
+    16 track [0][ ’key ’], track [0][ ’mode ’],
+    17 track [0][ ’ time_signature ’],
+    18 track [0][ ’ acousticness ’],
+    19 track [0][ ’ danceability ’],
+    20 track [0][ ’ instrumentalness ’],
+    21 track [0][ ’liveness ’], track [0][ ’loudness ’],
+    22 track [0][ ’ speechiness ’], track [0][ ’valence ’],
+    23 track [0][ ’tempo ’]]
+    24 writer . writerow ( features )
+    25 except :
+    26 print ("no␣ features ␣for"+str(row ))
+    27 features = [0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0]
+    28 writer . writerow ( features )
+
 ## Screenshots
 DATABASE SCHEMA
 ![Database schema](images/databaseschema.png "Database schema")
